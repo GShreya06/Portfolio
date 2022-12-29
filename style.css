@@ -3,71 +3,29 @@
     font-family:  arial, helvetica;
 }
 
-body{
-    overflow-x: hidden;
-    min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0) ;
-}
-
-
-
-#logo{
-    font-family:'Archivo Black', sans-serif;
-
-    padding-left: 20px;
-}
-
 #navbar{
 
     padding-right: 20px;
     font-family:'Archivo',sans-serif ;
 }
-/* body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
-.container{
-    display: flex;
-}
+.navbar li a:active {
+    background-color: blue;
+} 
 
-.navbar {
-    background-color: black;
-    list-style: none;
-    margin: 0;
-    padding: 20px;
-    text-align: right;
-    display: flex;
-}
-@media (min-width: 992px)
-.navbar-expand-lg .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-}
-.navbar li {
-    display: inline;
-    
-}
-
-.navbar a {
-    display: inline-block;
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-}
-
-.nav li a:hover {
-    background-color: #FF1493;
-}
-
-.nav li a:active {
-    background-color: #FF1493;
+/* .container::before{
+    background-image: url('bgp2.wep');
 } */
 
-img{
-    width:100%;
+.container{
+    display: flex;
+    border-radius: 10px;
+    border: black solid 2px;
+    width: 700px;
+    height: 200px;
+    justify-content: center;
+    margin: 128px 87px;
 }
+
 .wrapper{
     height : 100px;
     display: grid;
@@ -117,7 +75,14 @@ img{
     margin-left: auto;
     margin-right: auto;
 }
-
+.container2{
+    display: flex;
+    margin:12px;
+    padding: 10px;
+}
+.row{
+    display: flex;
+}
 table, th, td {
     font-size: 15px;
     text-align: center;
@@ -134,8 +99,4 @@ thead {
 
 td:hover {
     background-color: #ddd;
-}
-
-ul {
-    background: #C0C0C0;
 }

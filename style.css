@@ -77,12 +77,15 @@
 }
 .container2{
     display: flex;
-    margin:12px;
-    padding: 10px;
+    margin-left: 160px;
+    margin-right: 160px;
 }
 .row{
     display: flex;
+    margin:22px;
+    padding: 10px;
 }
+
 table, th, td {
     font-size: 15px;
     text-align: center;
